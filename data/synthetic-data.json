@@ -1,0 +1,1752 @@
+{
+  "asof": "2026-11-09T08:00:00-05:00",
+  "patients": [
+    {
+      "id": "SYN-001",
+      "name": "Demo Avery Vale",
+      "age": 68,
+      "plan": "Medicare Advantage",
+      "language": "English",
+      "scenario": "Fresh heart-failure discharge",
+      "goal": "Recover at home and attend follow-up",
+      "phone": "+1-202-555-0101",
+      "priority": "P1",
+      "action": "Review discharge medication conflict, call Avery this morning, verify access to medicines and confirm the Nov 12 visit and transport.",
+      "reason": "Nov 6 discharge; unresolved medication discrepancy; first outreach due today",
+      "contact": "Patient mobile verified Nov 6; morning preferred",
+      "social": "Transport needed; sibling can help after 17:00",
+      "clinical": "Heart failure discharge Nov 6; discharge list furosemide 40 mg daily; Oct 20 clinic list 20 mg daily. Requires clinician reconciliation.",
+      "drug": "furosemide",
+      "fill": "2026-10-01",
+      "days": 30,
+      "appt": "2026-11-12",
+      "apptstatus": "Scheduled",
+      "issue": "Conflicting medication dose and duplicate ADT delivery",
+      "event": "2026-11-06T14:00:00-05:00",
+      "received": "2026-11-06T14:10:00-05:00",
+      "claimdate": "2026-09-25",
+      "claim": "Outpatient cardiology; Nov discharge absent from claims",
+      "outreach": "No post-discharge contact yet",
+      "barrier": "Medication access and transport unconfirmed"
+    },
+    {
+      "id": "SYN-002",
+      "name": "Demo Jordan Reed",
+      "age": 54,
+      "plan": "Commercial PPO",
+      "language": "English",
+      "scenario": "Diabetes with possible refill gap",
+      "goal": "Keep care affordable around work shifts",
+      "phone": "+1-202-555-0102",
+      "priority": "P2",
+      "action": "Contact after 17:30, confirm actual medication supply and affordability, then coordinate pharmacy and diabetes follow-up.",
+      "reason": "No observed refill after expected supply end; affordability concern",
+      "contact": "Verified mobile; after 17:30 preferred; permission for reminder text",
+      "social": "Works two shifts; reported copay difficulty",
+      "clinical": "Type 2 diabetes; HbA1c 9.2% measured Oct 27; no new symptom report. Lab result supports review, not automated treatment.",
+      "drug": "metformin",
+      "fill": "2026-08-15",
+      "days": 30,
+      "appt": "2026-11-18",
+      "apptstatus": "Requested, not confirmed",
+      "issue": "Observed fill gap may miss outside-network/cash fills; old note says adherent",
+      "event": "2026-10-27T11:00:00-04:00",
+      "received": "2026-11-06T09:00:00-05:00",
+      "claimdate": "2026-09-18",
+      "claim": "Diabetes office visit; no more recent claim available",
+      "outreach": "Nov 5 10:00 voicemail; repeated morning calls poorly matched to work",
+      "barrier": "Cost and scheduling"
+    },
+    {
+      "id": "SYN-003",
+      "name": "Demo Riley Moss",
+      "age": 39,
+      "plan": "Medicaid",
+      "language": "Spanish",
+      "scenario": "Frequent ED use and failed outreach",
+      "goal": "Establish reliable follow-up and a contact route",
+      "phone": "+1-202-555-0103",
+      "priority": "P1",
+      "action": "Review Nov 7 ED event and missing discharge details; validate an alternate contact route through the care team and arrange Spanish-language outreach within recorded permissions.",
+      "reason": "Recent ED event plus repeated failed contacts",
+      "contact": "Listed mobile disconnected; no authorized caregiver; alternate route unknown",
+      "social": "Unstable phone access; transport need last assessed in March",
+      "clinical": "Three ED encounters in 60 days; latest alert lacks reason and discharge details. No assumption of current emergency.",
+      "drug": "albuterol inhaler",
+      "fill": "2026-10-20",
+      "days": 30,
+      "appt": "2026-11-10",
+      "apptstatus": "Unknown",
+      "issue": "Wrong phone; duplicate ADT; stale social assessment; appointment status unavailable",
+      "event": "2026-11-07T18:00:00-05:00",
+      "received": "2026-11-08T11:00:00-05:00",
+      "claimdate": "2026-09-12",
+      "claim": "Older ED visit; newer events only in ADT",
+      "outreach": "Nov 2 and Nov 5 disconnected; no successful contact",
+      "barrier": "Contact access and language"
+    },
+    {
+      "id": "SYN-004",
+      "name": "Demo Morgan Brook",
+      "age": 31,
+      "plan": "Medicaid",
+      "language": "English",
+      "scenario": "Behavioral health and housing instability",
+      "goal": "Maintain appointments while finding stable housing",
+      "phone": "+1-202-555-0104",
+      "priority": "P1",
+      "action": "Call at the agreed time about housing referral overdue since Nov 6; confirm safe contact preferences and behavioral-health follow-up. Track availability rather than claim housing is secured.",
+      "reason": "Overdue housing follow-up and Nov 10 appointment needing transport",
+      "contact": "Shared phone; neutral voicemail only; 14:00 preferred",
+      "social": "Temporary accommodation; transport unreliable; housing referral pending",
+      "clinical": "Depression recorded by outpatient clinic; no documented current safety crisis. Sensitive detail restricted to appropriate staff.",
+      "drug": "sertraline",
+      "fill": "2026-10-25",
+      "days": 30,
+      "appt": "2026-11-10",
+      "apptstatus": "Scheduled",
+      "issue": "Referral marked sent but service not received; March address stale",
+      "event": "2026-11-04T15:00:00-05:00",
+      "received": "2026-11-04T16:00:00-05:00",
+      "claimdate": "2026-09-30",
+      "claim": "Behavioral health outpatient visit",
+      "outreach": "Nov 4 reached; patient asked for neutral voicemail",
+      "barrier": "Housing and transport"
+    },
+    {
+      "id": "SYN-005",
+      "name": "Demo Casey Finch",
+      "age": 81,
+      "plan": "Dual eligible MA/Medicaid",
+      "language": "English",
+      "scenario": "Caregiver strain after discharge",
+      "goal": "Remain at home with reliable support",
+      "phone": "+1-202-555-0105",
+      "priority": "P1",
+      "action": "Contact authorized daughter after 16:00, verify home-health start and transport, and review conflicting medication instructions with the treating team.",
+      "reason": "Nov 5 discharge; missed home-health start; caregiver strain",
+      "contact": "Daughter Demo Robin Finch authorized through Dec 31; after 16:00 preferred",
+      "social": "Daughter reports exhaustion; needs help coordinating home services",
+      "clinical": "Nov 5 discharge after fall; atrial fibrillation and mobility limitations. Discharge and old clinic note disagree on medication status; treating clinician must resolve.",
+      "drug": "apixaban",
+      "fill": "2026-10-15",
+      "days": 30,
+      "appt": "2026-11-11",
+      "apptstatus": "Scheduled",
+      "issue": "Home-health status shows referral accepted but start-of-care unconfirmed; medication status conflict",
+      "event": "2026-11-05T13:00:00-05:00",
+      "received": "2026-11-06T17:00:00-05:00",
+      "claimdate": "2026-09-22",
+      "claim": "PCP visit; current discharge not yet in claims",
+      "outreach": "Nov 6 daughter reached briefly; callback after 16:00 agreed",
+      "barrier": "Caregiver capacity and home-service access"
+    }
+  ],
+  "datasets": [
+    [
+      "Member eligibility",
+      "Plan enrollment",
+      "ID, demographics, plan, PCP",
+      "Daily; recheck before coordination",
+      "Expired coverage or stale PCP",
+      "Show effective dates and last verification",
+      "Must",
+      "Know member and available benefits"
+    ],
+    [
+      "Cases",
+      "Workbench",
+      "Case ID, owner, reason, state, goals",
+      "Immediate on save",
+      "Duplicate enrollment or missing owner",
+      "Warn on same-member/program active case; require owner",
+      "Must",
+      "Track responsibility and lifecycle"
+    ],
+    [
+      "Hospital ADT",
+      "Hospital/HIE",
+      "Encounter, event type, event/arrival time",
+      "Minutes to hours if supplied",
+      "Duplicate alerts; diagnosis missing; delayed receipt",
+      "Deduplicate by encounter/event; retain delivery history; label missing",
+      "Must",
+      "Recognize recent transitions"
+    ],
+    [
+      "Clinical documents",
+      "Provider/HIE",
+      "Discharge summary, diagnoses, allergies, instructions",
+      "Latest available; flag missing discharge document after 24h as pilot rule",
+      "Conflicting lists and unstructured text",
+      "Keep source versions and reviewer confirmation",
+      "Must",
+      "Understand current context"
+    ],
+    [
+      "Pharmacy fills",
+      "PBM/pharmacy",
+      "Drug, dispense date, days supply, feed coverage",
+      "Daily if available",
+      "Reversals, cash/outside-network fills absent",
+      "Show feed as-of and possible rather than proven gap",
+      "Must",
+      "Verify medication access"
+    ],
+    [
+      "Claims",
+      "Insurer",
+      "Service dates, diagnosis, utilization",
+      "As received; may lag weeks",
+      "Lag and coding context",
+      "Display service and receipt dates; never infer no care from no claim",
+      "Must",
+      "Understand historical utilization"
+    ],
+    [
+      "Appointments",
+      "Provider scheduling or verified manual entry",
+      "Visit date, status, provider",
+      "Daily plus after confirmation",
+      "Scheduled confused with attended; external status absent",
+      "Use explicit status and confirming source",
+      "Must",
+      "Arrange and verify follow-up"
+    ],
+    [
+      "Contacts and preferences",
+      "Member services plus patient",
+      "Phone validity, preferred time/channel/language",
+      "At each contact; confirm changes",
+      "Wrong phone; shared device; unknown preference",
+      "Preserve invalid history; neutral-message setting",
+      "Must",
+      "Choose permitted outreach route"
+    ],
+    [
+      "Outreach history",
+      "Workbench",
+      "Attempt, channel, outcome, next attempt",
+      "Immediate on save",
+      "Inconsistent outcomes; repeated failed strategy",
+      "Controlled outcomes and next-step requirement",
+      "Must",
+      "Learn from previous attempts"
+    ],
+    [
+      "Assessments and social needs",
+      "Patient/caregiver; prior HRA",
+      "Medical/behavioral/social barriers, goals, support",
+      "At enrollment and when change occurs; age label always",
+      "Self-report stale or missing; nonresponse",
+      "Unknown distinct from none; refresh with member",
+      "Must",
+      "Build feasible patient goals"
+    ],
+    [
+      "Tasks and referrals",
+      "Workbench; service confirmation",
+      "Owner, due date, status, receipt evidence",
+      "Immediate internally; external as supplied",
+      "Sent mistaken for completed; unowned task",
+      "Separate requested, accepted, received and verified states",
+      "Must",
+      "Close the loop"
+    ],
+    [
+      "Care plans and notes",
+      "Workbench; clinician review",
+      "Agreed goals, interventions, interaction note",
+      "Each interaction",
+      "Copy-forward errors and unreviewed AI text",
+      "Source-linked reusable facts; review and sign; amendments",
+      "Must",
+      "Document once and follow progress"
+    ],
+    [
+      "Consent and permissions",
+      "Plan records plus confirmation",
+      "Program participation, caregiver scope/expiry, channel permission",
+      "Before disclosure or action; update immediately",
+      "Expired or ambiguous authority",
+      "Block prohibited disclosure; allow neutral task logging",
+      "Must",
+      "Contact and share appropriately"
+    ],
+    [
+      "Service directory and benefits",
+      "Plan network and community partners",
+      "Services, eligibility, geography, contact, last check",
+      "Pilot weekly review; confirm before referral",
+      "Closed programs or full waitlists",
+      "Display verification date and availability unknown",
+      "Must, curated",
+      "Find suitable support"
+    ],
+    [
+      "Risk and care gaps",
+      "Plan analytics and quality team",
+      "Signal, version, input window, explanation",
+      "Daily or per model run",
+      "Cost proxy bias and incomplete inputs",
+      "Display evidence; clinician override; subgroup review",
+      "Must, existing signals only",
+      "Support case finding without new model"
+    ],
+    [
+      "Staff and audit events",
+      "Identity service and workbench",
+      "Role, assignment, change history, timestamps",
+      "Immediate",
+      "Access mismatch; incomplete history",
+      "Role checks, append-only audit; supervisor escalation route",
+      "Must, basic",
+      "Safe assignment and accountability"
+    ],
+    [
+      "Authorizations",
+      "Insurer UM system",
+      "Request, status, reason, pending information",
+      "Daily when integration added",
+      "Unclear status or missing attachments",
+      "Read-only link/manual status initially; no auto-decisions",
+      "Later integration",
+      "Track coverage barriers"
+    ],
+    [
+      "Devices and home monitoring",
+      "Member devices/provider",
+      "Weight/glucose measurements with units",
+      "Per device agreement",
+      "Missing readings and false alarms",
+      "Clinical governance required; no assumed monitoring service",
+      "Later",
+      "Trend monitoring after pilot"
+    ]
+  ],
+  "sources": [
+    [
+      "S1",
+      "HiLabs brief",
+      "User-supplied PDF, sections A-E",
+      "Assignment requirements; case-manager persona and workload are scenario inputs."
+    ],
+    [
+      "S2",
+      "Health-plan care-manager information barriers",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6557451/",
+      "80 respondents at one Pennsylvania health plan; published 2017, survey 2012-13. Duplicate entry 68%, multiple logins 49%, timely access 37% rated major barriers. Historical, not national."
+    ],
+    [
+      "S3",
+      "NCQA case-management framework",
+      "https://www.ncqa.org/programs/health-plans/case-management-cm/",
+      "Assessment, planning, coordination, evaluation and advocacy across medical, behavioral and social needs."
+    ],
+    [
+      "S4",
+      "SummaCare operating policy",
+      "https://www.summacare.com/-/media/project/summacare/website/document-library/medicare-members/medical-benefits/policies/2024---final/complex-care-management-program-documentation-and-outreach.pdf?hash=5010D81309245169D3BCBAEBBE093F7D&sc_lang=en",
+      "One plan example of case finding, record review, outreach and documentation; not a universal requirement."
+    ],
+    [
+      "S5",
+      "Medication reconciliation",
+      "https://digital.ahrq.gov/medication-reconciliation",
+      "Information transfer, reconciliation provenance and accountability problems."
+    ],
+    [
+      "S6",
+      "Patient perspectives",
+      "https://pubmed.ncbi.nlm.nih.gov/35477772/",
+      "2022 qualitative study, 40 patients at 12 primary-care practices. Financial/transport barriers and relationship factors; adjacent setting."
+    ],
+    [
+      "S7",
+      "Referral tracking research",
+      "https://link.springer.com/article/10.1007/s11606-026-10735-6",
+      "2026 formative community-health-center study; fragmented referral documentation. Adjacent setting."
+    ],
+    [
+      "S8",
+      "CMS navigation evaluation",
+      "https://www.cms.gov/priorities/innovation/data-and-reports/2026/ahc-final-report",
+      "Community service capacity can constrain navigation. Evaluation does not establish this app's impact."
+    ],
+    [
+      "S9",
+      "CMS transitional care services",
+      "https://www.cms.gov/medicare/payment/fee-schedules/physician-fee-schedule/care-management/transitional-care-management-services",
+      "Provider TCM billing has specific contact/visit windows. Do not apply these as universal payer case-management rules."
+    ],
+    [
+      "S10",
+      "Risk algorithm bias",
+      "https://pubmed.ncbi.nlm.nih.gov/31649194/",
+      "2019 study: cost used as a proxy for need can create racial bias."
+    ],
+    [
+      "S11",
+      "Alert fatigue",
+      "https://psnet.ahrq.gov/primer/alert-fatigue",
+      "Primarily clinical decision-support evidence; apply cautiously to payer notifications."
+    ],
+    [
+      "S12",
+      "Authorization delays",
+      "https://www.oig.hhs.gov/reports/all/2022/some-medicare-advantage-organization-denials-of-prior-authorization-requests-raise-concerns-about-beneficiary-access-to-medically-necessary-care/",
+      "2022 Medicare Advantage review; inappropriate denials can delay access."
+    ]
+  ],
+  "refs": [
+    [
+      "VS Code",
+      "https://code.visualstudio.com/docs/configure/custom-layout",
+      "Workspace flexibility",
+      "Documented tabs, editor groups and movable panels",
+      "Patient tabs, resizable context and notes dock",
+      "Avoid developer terminology and unrestricted multi-patient panes",
+      "Public illustrated documentation"
+    ],
+    [
+      "Linear",
+      "https://linear.app/docs/inbox",
+      "Daily queue and attention",
+      "Illustrated inbox and notification workflows",
+      "Compact rows, clear unread states and detail view",
+      "Clinical urgency must remain distinct from unread status",
+      "Public illustrated documentation"
+    ],
+    [
+      "Intercom",
+      "https://www.intercom.com/help/en/articles/7911926-customize-the-inbox-to-suit-you-and-how-you-work-best",
+      "Outreach workspace",
+      "Documented table/chat layouts and configurable sidebars",
+      "Queue, conversation and context visible together",
+      "Support conversation state is not a clinical case lifecycle",
+      "Public illustrated documentation"
+    ],
+    [
+      "Zendesk",
+      "https://support.zendesk.com/hc/en-us/articles/4408821259930-About-the-Zendesk-Agent-Workspace/",
+      "Case operations",
+      "Documented unified ticket interface and channels",
+      "Case context next to interaction history",
+      "Avoid treating healthcare cases as disposable support tickets",
+      "Public documentation and product visuals"
+    ],
+    [
+      "Salesforce Health Cloud",
+      "https://trailhead.salesforce.com/content/learn/modules/health-cloud-data-displays/add-objects-to-health-timeline",
+      "Patient timeline",
+      "Illustrated health timeline configuration",
+      "Event chronology and patient context",
+      "Reduce configuration complexity and keep action rationale explicit",
+      "Public illustrated learning module"
+    ],
+    [
+      "Pega Care Management",
+      "https://www.pega.com/industries/healthcare/care-management",
+      "Payer workflow fit",
+      "Public care-management overview",
+      "Guided work, plan and task organization",
+      "Public page is insufficient to judge complete usability",
+      "Public product overview; deeper demo may require contact"
+    ],
+    [
+      "ZeOmega Jiva",
+      "https://www.zeomega.com/",
+      "Payer breadth",
+      "Public payer-care platform overview",
+      "Coverage of care-management operations",
+      "Use for domain comparison; authenticated workspace not inspected",
+      "Public overview; demo access may require contact"
+    ],
+    [
+      "Healthie",
+      "https://help.gethealthie.com/article/173-overview-charting-within-healthie",
+      "Documentation",
+      "Illustrated charting, prefill and intake reuse",
+      "Reusable facts and clear note lifecycle",
+      "Provider documentation differs from insurer coordination",
+      "Public illustrated help"
+    ],
+    [
+      "Elation Health",
+      "https://go.elationhealth.com/sample-chart",
+      "Clinical chart reference",
+      "Sample-chart landing page only",
+      "Potential reference for longitudinal chart hierarchy",
+      "Detailed sample is form-gated; not reviewed or ranked on visual quality",
+      "Form-gated sample; public landing page only"
+    ],
+    [
+      "Canvas Medical",
+      "https://help.canvasmedical.com/articles/4129367510-commands-introduction",
+      "Fast structured actions",
+      "Documented commands with explicit commit step",
+      "Draft versus committed action distinction",
+      "Exclude prescribing/order placement from our scope",
+      "Public illustrated help"
+    ]
+  ],
+  "sheets": [
+    {
+      "name": "Monday actions",
+      "headers": [
+        "Member ID",
+        "Fictional patient",
+        "Scenario",
+        "Tier",
+        "Why now",
+        "Monday 8 am action",
+        "Preferred contact"
+      ],
+      "rows": [
+        [
+          "SYN-001",
+          "Demo Avery Vale",
+          "Fresh heart-failure discharge",
+          "P1",
+          "Nov 6 discharge; unresolved medication discrepancy; first outreach due today",
+          "Review discharge medication conflict, call Avery this morning, verify access to medicines and confirm the Nov 12 visit and transport.",
+          "Patient mobile verified Nov 6; morning preferred"
+        ],
+        [
+          "SYN-002",
+          "Demo Jordan Reed",
+          "Diabetes with possible refill gap",
+          "P2",
+          "No observed refill after expected supply end; affordability concern",
+          "Contact after 17:30, confirm actual medication supply and affordability, then coordinate pharmacy and diabetes follow-up.",
+          "Verified mobile; after 17:30 preferred; permission for reminder text"
+        ],
+        [
+          "SYN-003",
+          "Demo Riley Moss",
+          "Frequent ED use and failed outreach",
+          "P1",
+          "Recent ED event plus repeated failed contacts",
+          "Review Nov 7 ED event and missing discharge details; validate an alternate contact route through the care team and arrange Spanish-language outreach within recorded permissions.",
+          "Listed mobile disconnected; no authorized caregiver; alternate route unknown"
+        ],
+        [
+          "SYN-004",
+          "Demo Morgan Brook",
+          "Behavioral health and housing instability",
+          "P1",
+          "Overdue housing follow-up and Nov 10 appointment needing transport",
+          "Call at the agreed time about housing referral overdue since Nov 6; confirm safe contact preferences and behavioral-health follow-up. Track availability rather than claim housing is secured.",
+          "Shared phone; neutral voicemail only; 14:00 preferred"
+        ],
+        [
+          "SYN-005",
+          "Demo Casey Finch",
+          "Caregiver strain after discharge",
+          "P1",
+          "Nov 5 discharge; missed home-health start; caregiver strain",
+          "Contact authorized daughter after 16:00, verify home-health start and transport, and review conflicting medication instructions with the treating team.",
+          "Daughter Demo Robin Finch authorized through Dec 31; after 16:00 preferred"
+        ]
+      ]
+    },
+    {
+      "name": "Members",
+      "headers": [
+        "Member ID",
+        "Fictional name",
+        "Age years",
+        "Plan",
+        "Language",
+        "Phone (fake)",
+        "PCP",
+        "Eligibility"
+      ],
+      "rows": [
+        [
+          "SYN-001",
+          "Demo Avery Vale",
+          68,
+          "Medicare Advantage",
+          "English",
+          "+1-202-555-0101",
+          "Demo PCP 1",
+          "Active as of Nov 9; synthetic"
+        ],
+        [
+          "SYN-002",
+          "Demo Jordan Reed",
+          54,
+          "Commercial PPO",
+          "English",
+          "+1-202-555-0102",
+          "Demo PCP 2",
+          "Active as of Nov 9; synthetic"
+        ],
+        [
+          "SYN-003",
+          "Demo Riley Moss",
+          39,
+          "Medicaid",
+          "Spanish",
+          "+1-202-555-0103",
+          "Demo PCP 3",
+          "Active as of Nov 9; synthetic"
+        ],
+        [
+          "SYN-004",
+          "Demo Morgan Brook",
+          31,
+          "Medicaid",
+          "English",
+          "+1-202-555-0104",
+          "Demo PCP 4",
+          "Active as of Nov 9; synthetic"
+        ],
+        [
+          "SYN-005",
+          "Demo Casey Finch",
+          81,
+          "Dual eligible MA/Medicaid",
+          "English",
+          "+1-202-555-0105",
+          "Demo PCP 5",
+          "Active as of Nov 9; synthetic"
+        ]
+      ]
+    },
+    {
+      "name": "Cases",
+      "headers": [
+        "Case ID",
+        "Member ID",
+        "Program",
+        "Owner",
+        "State",
+        "Opened date",
+        "Patient goal",
+        "Barrier"
+      ],
+      "rows": [
+        [
+          "CASE-SYN-001",
+          "SYN-001",
+          "Transitions",
+          "Demo Maria RN",
+          "Outreach",
+          "2026-11-06",
+          "Recover at home and attend follow-up",
+          "Medication access and transport unconfirmed"
+        ],
+        [
+          "CASE-SYN-002",
+          "SYN-002",
+          "Complex care",
+          "Demo Maria RN",
+          "Outreach",
+          "2026-11-06",
+          "Keep care affordable around work shifts",
+          "Cost and scheduling"
+        ],
+        [
+          "CASE-SYN-003",
+          "SYN-003",
+          "Complex care",
+          "Demo Maria RN",
+          "Outreach",
+          "2026-11-06",
+          "Establish reliable follow-up and a contact route",
+          "Contact access and language"
+        ],
+        [
+          "CASE-SYN-004",
+          "SYN-004",
+          "Complex care",
+          "Demo Maria RN",
+          "Active",
+          "2026-11-06",
+          "Maintain appointments while finding stable housing",
+          "Housing and transport"
+        ],
+        [
+          "CASE-SYN-005",
+          "SYN-005",
+          "Transitions",
+          "Demo Maria RN",
+          "Active",
+          "2026-11-06",
+          "Remain at home with reliable support",
+          "Caregiver capacity and home-service access"
+        ]
+      ]
+    },
+    {
+      "name": "Hospital alerts",
+      "headers": [
+        "Record ID",
+        "Member ID",
+        "Encounter ID",
+        "Event",
+        "Event time (US Eastern)",
+        "Received time (US Eastern)",
+        "Source",
+        "Imperfection"
+      ],
+      "rows": [
+        [
+          "ADT-1",
+          "SYN-001",
+          "ENC-SYN-001",
+          "Discharge",
+          "2026-11-06T14:00:00-05:00",
+          "2026-11-06T14:10:00-05:00",
+          "Demo HIE",
+          "Duplicate delivery below"
+        ],
+        [
+          "ADT-2",
+          "SYN-002",
+          "ENC-SYN-002",
+          "No recent ADT available",
+          null,
+          null,
+          "Demo HIE",
+          "Absence is not proof of no hospitalization"
+        ],
+        [
+          "ADT-3",
+          "SYN-003",
+          "ENC-SYN-003",
+          "ED visit",
+          "2026-11-07T18:00:00-05:00",
+          "2026-11-08T11:00:00-05:00",
+          "Demo HIE",
+          "Delayed/missing detail"
+        ],
+        [
+          "ADT-4",
+          "SYN-004",
+          "ENC-SYN-004",
+          "No recent ADT available",
+          null,
+          null,
+          "Demo HIE",
+          "Absence is not proof of no hospitalization"
+        ],
+        [
+          "ADT-5",
+          "SYN-005",
+          "ENC-SYN-005",
+          "Discharge",
+          "2026-11-05T13:00:00-05:00",
+          "2026-11-06T17:00:00-05:00",
+          "Demo HIE",
+          "Delayed/missing detail"
+        ],
+        [
+          "ADT-001-retry",
+          "SYN-001",
+          "ENC-SYN-001",
+          "Discharge",
+          "2026-11-06T14:00:00-05:00",
+          "2026-11-06T14:20:00-05:00",
+          "Demo HIE",
+          "Same event re-delivered; retain one clinical event"
+        ]
+      ]
+    },
+    {
+      "name": "Clinical records",
+      "headers": [
+        "Record ID",
+        "Member ID",
+        "Document type",
+        "Observation date",
+        "Received date",
+        "Source",
+        "Clinical context",
+        "Imperfection"
+      ],
+      "rows": [
+        [
+          "CL-1",
+          "SYN-001",
+          "Discharge summary",
+          "2026-11-06",
+          "2026-11-06",
+          "Demo hospital",
+          "Heart failure discharge Nov 6; discharge list furosemide 40 mg daily; Oct 20 clinic list 20 mg daily. Requires clinician reconciliation.",
+          "Conflicting medication dose and duplicate ADT delivery"
+        ],
+        [
+          "CL-2",
+          "SYN-002",
+          "Clinic/lab note",
+          "2026-10-27",
+          "2026-11-06",
+          "Demo clinic",
+          "Type 2 diabetes; HbA1c 9.2% measured Oct 27; no new symptom report. Lab result supports review, not automated treatment.",
+          "Observed fill gap may miss outside-network/cash fills; old note says adherent"
+        ],
+        [
+          "CL-3",
+          "SYN-003",
+          "Clinic/lab note",
+          "2026-11-07",
+          "2026-11-08",
+          "Demo clinic",
+          "Three ED encounters in 60 days; latest alert lacks reason and discharge details. No assumption of current emergency.",
+          "Wrong phone; duplicate ADT; stale social assessment; appointment status unavailable"
+        ],
+        [
+          "CL-4",
+          "SYN-004",
+          "Clinic/lab note",
+          "2026-11-04",
+          "2026-11-04",
+          "Demo clinic",
+          "Depression recorded by outpatient clinic; no documented current safety crisis. Sensitive detail restricted to appropriate staff.",
+          "Referral marked sent but service not received; March address stale"
+        ],
+        [
+          "CL-5",
+          "SYN-005",
+          "Discharge summary",
+          "2026-11-05",
+          "2026-11-06",
+          "Demo hospital",
+          "Nov 5 discharge after fall; atrial fibrillation and mobility limitations. Discharge and old clinic note disagree on medication status; treating clinician must resolve.",
+          "Home-health status shows referral accepted but start-of-care unconfirmed; medication status conflict"
+        ]
+      ]
+    },
+    {
+      "name": "Pharmacy fills",
+      "headers": [
+        "Fill ID",
+        "Member ID",
+        "Drug",
+        "Fill date",
+        "Days supply",
+        "Feed as of",
+        "Coverage",
+        "Interpretation"
+      ],
+      "rows": [
+        [
+          "RX-1",
+          "SYN-001",
+          "furosemide",
+          "2026-10-01",
+          30,
+          "2026-11-08",
+          "Demo plan network only",
+          "Potential supply gap; verify actual supply"
+        ],
+        [
+          "RX-2",
+          "SYN-002",
+          "metformin",
+          "2026-08-15",
+          30,
+          "2026-11-08",
+          "Demo plan network only",
+          "Potential supply gap; verify actual supply"
+        ],
+        [
+          "RX-3",
+          "SYN-003",
+          "albuterol inhaler",
+          "2026-10-20",
+          30,
+          "2026-11-08",
+          "Demo plan network only",
+          "Dispensing record does not establish ingestion"
+        ],
+        [
+          "RX-4",
+          "SYN-004",
+          "sertraline",
+          "2026-10-25",
+          30,
+          "2026-11-08",
+          "Demo plan network only",
+          "Dispensing record does not establish ingestion"
+        ],
+        [
+          "RX-5",
+          "SYN-005",
+          "apixaban",
+          "2026-10-15",
+          30,
+          "2026-11-08",
+          "Demo plan network only",
+          "Dispensing record does not establish ingestion"
+        ]
+      ]
+    },
+    {
+      "name": "Claims",
+      "headers": [
+        "Claim ID",
+        "Member ID",
+        "Service date",
+        "Received date",
+        "Source",
+        "Description",
+        "Imperfection"
+      ],
+      "rows": [
+        [
+          "CLM-1",
+          "SYN-001",
+          "2026-09-25",
+          "2026-11-02",
+          "Demo insurer",
+          "Outpatient cardiology; Nov discharge absent from claims",
+          "Historical claim; recent event may not yet be billed"
+        ],
+        [
+          "CLM-2",
+          "SYN-002",
+          "2026-09-18",
+          "2026-11-02",
+          "Demo insurer",
+          "Diabetes office visit; no more recent claim available",
+          "Historical claim; recent event may not yet be billed"
+        ],
+        [
+          "CLM-3",
+          "SYN-003",
+          "2026-09-12",
+          "2026-11-02",
+          "Demo insurer",
+          "Older ED visit; newer events only in ADT",
+          "Historical claim; recent event may not yet be billed"
+        ],
+        [
+          "CLM-4",
+          "SYN-004",
+          "2026-09-30",
+          "2026-11-02",
+          "Demo insurer",
+          "Behavioral health outpatient visit",
+          "Historical claim; recent event may not yet be billed"
+        ],
+        [
+          "CLM-5",
+          "SYN-005",
+          "2026-09-22",
+          "2026-11-02",
+          "Demo insurer",
+          "PCP visit; current discharge not yet in claims",
+          "Historical claim; recent event may not yet be billed"
+        ]
+      ]
+    },
+    {
+      "name": "Appointments",
+      "headers": [
+        "Appointment ID",
+        "Member ID",
+        "Visit date",
+        "Status",
+        "Provider",
+        "Last checked",
+        "Source",
+        "Next verification"
+      ],
+      "rows": [
+        [
+          "APPT-1",
+          "SYN-001",
+          "2026-11-12",
+          "Scheduled",
+          "Demo clinic 1",
+          "2026-11-06",
+          "Scheduling feed",
+          "Confirm transport and attendance; do not count as completed"
+        ],
+        [
+          "APPT-2",
+          "SYN-002",
+          "2026-11-18",
+          "Requested, not confirmed",
+          "Demo clinic 2",
+          "2026-11-06",
+          "Scheduling feed",
+          "Confirm transport and attendance; do not count as completed"
+        ],
+        [
+          "APPT-3",
+          "SYN-003",
+          "2026-11-10",
+          "Unknown",
+          "Demo clinic 3",
+          "2026-11-06",
+          "Patient report, old",
+          "Confirm transport and attendance; do not count as completed"
+        ],
+        [
+          "APPT-4",
+          "SYN-004",
+          "2026-11-10",
+          "Scheduled",
+          "Demo clinic 4",
+          "2026-11-06",
+          "Scheduling feed",
+          "Confirm transport and attendance; do not count as completed"
+        ],
+        [
+          "APPT-5",
+          "SYN-005",
+          "2026-11-11",
+          "Scheduled",
+          "Demo clinic 5",
+          "2026-11-06",
+          "Scheduling feed",
+          "Confirm transport and attendance; do not count as completed"
+        ]
+      ]
+    },
+    {
+      "name": "Contact permissions",
+      "headers": [
+        "Member ID",
+        "Contact details",
+        "Language",
+        "Program consent",
+        "Disclosure scope",
+        "Expiry date",
+        "Recorded date",
+        "Imperfection"
+      ],
+      "rows": [
+        [
+          "SYN-001",
+          "Patient mobile verified Nov 6; morning preferred",
+          "English",
+          "Confirm at first successful outreach",
+          "Patient only",
+          null,
+          "2026-11-06",
+          "Preference requires confirmation when circumstances change"
+        ],
+        [
+          "SYN-002",
+          "Verified mobile; after 17:30 preferred; permission for reminder text",
+          "English",
+          "Confirm at first successful outreach",
+          "Patient only",
+          null,
+          "2026-11-06",
+          "Preference requires confirmation when circumstances change"
+        ],
+        [
+          "SYN-003",
+          "Listed mobile disconnected; no authorized caregiver; alternate route unknown",
+          "Spanish",
+          "Confirm at first successful outreach",
+          "Patient only",
+          null,
+          "2026-11-06",
+          "Invalid listed number"
+        ],
+        [
+          "SYN-004",
+          "Shared phone; neutral voicemail only; 14:00 preferred",
+          "English",
+          "Verbal participation recorded Nov 4",
+          "Patient only; neutral voicemail",
+          null,
+          "2026-11-06",
+          "Preference requires confirmation when circumstances change"
+        ],
+        [
+          "SYN-005",
+          "Daughter Demo Robin Finch authorized through Dec 31; after 16:00 preferred",
+          "English",
+          "Verbal participation recorded Nov 4",
+          "Authorized daughter for coordination",
+          "2026-12-31",
+          "2026-11-06",
+          "Preference requires confirmation when circumstances change"
+        ]
+      ]
+    },
+    {
+      "name": "Outreach",
+      "headers": [
+        "Attempt ID",
+        "Member ID",
+        "Last attempt date",
+        "Channel",
+        "Outcome",
+        "History",
+        "Next planned contact",
+        "Source"
+      ],
+      "rows": [
+        [
+          "CALL-1",
+          "SYN-001",
+          null,
+          "Phone",
+          "Not attempted",
+          "No post-discharge contact yet",
+          "2026-11-09",
+          "Demo workbench"
+        ],
+        [
+          "CALL-2",
+          "SYN-002",
+          "2026-11-05",
+          "Phone",
+          "Voicemail",
+          "Nov 5 10:00 voicemail; repeated morning calls poorly matched to work",
+          "2026-11-09",
+          "Demo workbench"
+        ],
+        [
+          "CALL-3",
+          "SYN-003",
+          "2026-11-05",
+          "Phone",
+          "Disconnected",
+          "Nov 2 and Nov 5 disconnected; no successful contact",
+          "2026-11-09",
+          "Demo workbench"
+        ],
+        [
+          "CALL-4",
+          "SYN-004",
+          "2026-11-04",
+          "Phone",
+          "Reached",
+          "Nov 4 reached; patient asked for neutral voicemail",
+          "2026-11-09",
+          "Demo workbench"
+        ],
+        [
+          "CALL-5",
+          "SYN-005",
+          "2026-11-06",
+          "Phone",
+          "Reached caregiver",
+          "Nov 6 daughter reached briefly; callback after 16:00 agreed",
+          "2026-11-09",
+          "Demo workbench"
+        ]
+      ]
+    },
+    {
+      "name": "Assessments",
+      "headers": [
+        "Assessment ID",
+        "Member ID",
+        "Observed date",
+        "Source",
+        "Social and caregiver context",
+        "Goal",
+        "Refresh needed",
+        "Imperfection"
+      ],
+      "rows": [
+        [
+          "HRA-1",
+          "SYN-001",
+          "2026-11-04",
+          "Member/caregiver self-report",
+          "Transport needed; sibling can help after 17:00",
+          "Recover at home and attend follow-up",
+          "At next contact",
+          "Self-report; verify changes"
+        ],
+        [
+          "HRA-2",
+          "SYN-002",
+          "2026-11-04",
+          "Member/caregiver self-report",
+          "Works two shifts; reported copay difficulty",
+          "Keep care affordable around work shifts",
+          "At next contact",
+          "Self-report; verify changes"
+        ],
+        [
+          "HRA-3",
+          "SYN-003",
+          "2026-03-01",
+          "Member/caregiver self-report",
+          "Unstable phone access; transport need last assessed in March",
+          "Establish reliable follow-up and a contact route",
+          "Yes",
+          "Stale; current needs unknown"
+        ],
+        [
+          "HRA-4",
+          "SYN-004",
+          "2026-11-04",
+          "Member/caregiver self-report",
+          "Temporary accommodation; transport unreliable; housing referral pending",
+          "Maintain appointments while finding stable housing",
+          "At next contact",
+          "Self-report; verify changes"
+        ],
+        [
+          "HRA-5",
+          "SYN-005",
+          "2026-11-04",
+          "Member/caregiver self-report",
+          "Daughter reports exhaustion; needs help coordinating home services",
+          "Remain at home with reliable support",
+          "At next contact",
+          "Self-report; verify changes"
+        ]
+      ]
+    },
+    {
+      "name": "Tasks referrals",
+      "headers": [
+        "Task ID",
+        "Member ID",
+        "Action",
+        "Owner",
+        "Due date",
+        "Status",
+        "Completion evidence",
+        "Dependency"
+      ],
+      "rows": [
+        [
+          "TASK-1",
+          "SYN-001",
+          "Verify medication access and dose with treating team",
+          "Demo Maria RN",
+          "2026-11-09",
+          "Open",
+          "None yet; do not mark complete",
+          "Medication access and transport unconfirmed"
+        ],
+        [
+          "TASK-2",
+          "SYN-002",
+          "Confirm actual supply and copay options",
+          "Demo Maria RN",
+          "2026-11-09",
+          "Open",
+          "None yet; do not mark complete",
+          "Cost and scheduling"
+        ],
+        [
+          "TASK-3",
+          "SYN-003",
+          "Find permitted alternate outreach route",
+          "Demo Maria RN",
+          "2026-11-09",
+          "Open",
+          "None yet; do not mark complete",
+          "Contact access and language"
+        ],
+        [
+          "TASK-4",
+          "SYN-004",
+          "Verify housing referral receipt and availability",
+          "Demo Maria RN",
+          "2026-11-06",
+          "Waiting external",
+          "None yet; do not mark complete",
+          "Housing and transport"
+        ],
+        [
+          "TASK-5",
+          "SYN-005",
+          "Confirm home-health start",
+          "Demo Maria RN",
+          "2026-11-09",
+          "Waiting external",
+          "None yet; do not mark complete",
+          "Caregiver capacity and home-service access"
+        ]
+      ]
+    },
+    {
+      "name": "Care plans notes",
+      "headers": [
+        "Plan ID",
+        "Member ID",
+        "Updated date",
+        "Goal",
+        "Intervention",
+        "Next review date",
+        "Approval state",
+        "Source"
+      ],
+      "rows": [
+        [
+          "PLAN-1",
+          "SYN-001",
+          "2026-11-09",
+          "Recover at home and attend follow-up",
+          "Review discharge medication conflict, call Avery this morning, verify access to medicines and confirm the Nov 12 visit and transport.",
+          "2026-11-09",
+          "Draft proposed; confirm with patient",
+          "Synthetic author"
+        ],
+        [
+          "PLAN-2",
+          "SYN-002",
+          "2026-11-09",
+          "Keep care affordable around work shifts",
+          "Contact after 17:30, confirm actual medication supply and affordability, then coordinate pharmacy and diabetes follow-up.",
+          "2026-11-09",
+          "Draft proposed; confirm with patient",
+          "Synthetic author"
+        ],
+        [
+          "PLAN-3",
+          "SYN-003",
+          "2026-11-09",
+          "Establish reliable follow-up and a contact route",
+          "Review Nov 7 ED event and missing discharge details; validate an alternate contact route through the care team and arrange Spanish-language outreach within recorded permissions.",
+          "2026-11-09",
+          "Draft proposed; confirm with patient",
+          "Synthetic author"
+        ],
+        [
+          "PLAN-4",
+          "SYN-004",
+          "2026-11-09",
+          "Maintain appointments while finding stable housing",
+          "Call at the agreed time about housing referral overdue since Nov 6; confirm safe contact preferences and behavioral-health follow-up. Track availability rather than claim housing is secured.",
+          "2026-11-09",
+          "Existing plan; clinician update pending",
+          "Synthetic author"
+        ],
+        [
+          "PLAN-5",
+          "SYN-005",
+          "2026-11-09",
+          "Remain at home with reliable support",
+          "Contact authorized daughter after 16:00, verify home-health start and transport, and review conflicting medication instructions with the treating team.",
+          "2026-11-09",
+          "Existing plan; clinician update pending",
+          "Synthetic author"
+        ]
+      ]
+    },
+    {
+      "name": "Risk signals",
+      "headers": [
+        "Signal ID",
+        "Member ID",
+        "Signal",
+        "Observed date",
+        "Source",
+        "Evidence",
+        "Limitation"
+      ],
+      "rows": [
+        [
+          "SIG-1",
+          "SYN-001",
+          "Nov 6 discharge; unresolved medication discrepancy; first outreach due today",
+          "2026-11-09",
+          "Demo plan/workbench rules v1",
+          "Conflicting medication dose and duplicate ADT delivery",
+          "Operational review signal; no validated risk prediction or diagnosis"
+        ],
+        [
+          "SIG-2",
+          "SYN-002",
+          "No observed refill after expected supply end; affordability concern",
+          "2026-11-09",
+          "Demo plan/workbench rules v1",
+          "Observed fill gap may miss outside-network/cash fills; old note says adherent",
+          "Operational review signal; no validated risk prediction or diagnosis"
+        ],
+        [
+          "SIG-3",
+          "SYN-003",
+          "Recent ED event plus repeated failed contacts",
+          "2026-11-09",
+          "Demo plan/workbench rules v1",
+          "Wrong phone; duplicate ADT; stale social assessment; appointment status unavailable",
+          "Operational review signal; no validated risk prediction or diagnosis"
+        ],
+        [
+          "SIG-4",
+          "SYN-004",
+          "Overdue housing follow-up and Nov 10 appointment needing transport",
+          "2026-11-09",
+          "Demo plan/workbench rules v1",
+          "Referral marked sent but service not received; March address stale",
+          "Operational review signal; no validated risk prediction or diagnosis"
+        ],
+        [
+          "SIG-5",
+          "SYN-005",
+          "Nov 5 discharge; missed home-health start; caregiver strain",
+          "2026-11-09",
+          "Demo plan/workbench rules v1",
+          "Home-health status shows referral accepted but start-of-care unconfirmed; medication status conflict",
+          "Operational review signal; no validated risk prediction or diagnosis"
+        ]
+      ]
+    },
+    {
+      "name": "Directory",
+      "headers": [
+        "Service ID",
+        "Type",
+        "Name (fake)",
+        "Eligibility",
+        "Last verified",
+        "Availability",
+        "Contact",
+        "Decision"
+      ],
+      "rows": [
+        [
+          "SVC-1",
+          "Transport",
+          "Demo Ride Support",
+          "Plan member; verify benefit",
+          "2026-11-06",
+          "Confirm before booking",
+          "rides@example.invalid",
+          "Arrange ride"
+        ],
+        [
+          "SVC-2",
+          "Housing",
+          "Demo Housing Link",
+          "County eligibility screening",
+          "2026-11-06",
+          "Waitlist unknown",
+          "housing@example.invalid",
+          "Verify acceptance and availability"
+        ],
+        [
+          "SVC-3",
+          "Pharmacy assistance",
+          "Demo Medication Access",
+          "Plan-specific assistance",
+          "2026-11-06",
+          "Confirm copay options",
+          "rx@example.invalid",
+          "Resolve access barrier"
+        ],
+        [
+          "SVC-4",
+          "Home health",
+          "Demo Home Support",
+          "Requires provider order and coverage check",
+          "2026-11-06",
+          "Start date unconfirmed",
+          "home@example.invalid",
+          "Verify actual service start"
+        ],
+        [
+          "SVC-5",
+          "Interpreter",
+          "Demo Language Support",
+          "Plan contracted service",
+          "2026-11-06",
+          "Spanish service available; book slot",
+          "language@example.invalid",
+          "Support language preference"
+        ]
+      ]
+    },
+    {
+      "name": "Data strategy",
+      "headers": [
+        "Dataset",
+        "Source",
+        "Fields",
+        "Desired freshness",
+        "Quality issue",
+        "Handling",
+        "Priority",
+        "Decision"
+      ],
+      "rows": [
+        [
+          "Member eligibility",
+          "Plan enrollment",
+          "ID, demographics, plan, PCP",
+          "Daily; recheck before coordination",
+          "Expired coverage or stale PCP",
+          "Show effective dates and last verification",
+          "Must",
+          "Know member and available benefits"
+        ],
+        [
+          "Cases",
+          "Workbench",
+          "Case ID, owner, reason, state, goals",
+          "Immediate on save",
+          "Duplicate enrollment or missing owner",
+          "Warn on same-member/program active case; require owner",
+          "Must",
+          "Track responsibility and lifecycle"
+        ],
+        [
+          "Hospital ADT",
+          "Hospital/HIE",
+          "Encounter, event type, event/arrival time",
+          "Minutes to hours if supplied",
+          "Duplicate alerts; diagnosis missing; delayed receipt",
+          "Deduplicate by encounter/event; retain delivery history; label missing",
+          "Must",
+          "Recognize recent transitions"
+        ],
+        [
+          "Clinical documents",
+          "Provider/HIE",
+          "Discharge summary, diagnoses, allergies, instructions",
+          "Latest available; flag missing discharge document after 24h as pilot rule",
+          "Conflicting lists and unstructured text",
+          "Keep source versions and reviewer confirmation",
+          "Must",
+          "Understand current context"
+        ],
+        [
+          "Pharmacy fills",
+          "PBM/pharmacy",
+          "Drug, dispense date, days supply, feed coverage",
+          "Daily if available",
+          "Reversals, cash/outside-network fills absent",
+          "Show feed as-of and possible rather than proven gap",
+          "Must",
+          "Verify medication access"
+        ],
+        [
+          "Claims",
+          "Insurer",
+          "Service dates, diagnosis, utilization",
+          "As received; may lag weeks",
+          "Lag and coding context",
+          "Display service and receipt dates; never infer no care from no claim",
+          "Must",
+          "Understand historical utilization"
+        ],
+        [
+          "Appointments",
+          "Provider scheduling or verified manual entry",
+          "Visit date, status, provider",
+          "Daily plus after confirmation",
+          "Scheduled confused with attended; external status absent",
+          "Use explicit status and confirming source",
+          "Must",
+          "Arrange and verify follow-up"
+        ],
+        [
+          "Contacts and preferences",
+          "Member services plus patient",
+          "Phone validity, preferred time/channel/language",
+          "At each contact; confirm changes",
+          "Wrong phone; shared device; unknown preference",
+          "Preserve invalid history; neutral-message setting",
+          "Must",
+          "Choose permitted outreach route"
+        ],
+        [
+          "Outreach history",
+          "Workbench",
+          "Attempt, channel, outcome, next attempt",
+          "Immediate on save",
+          "Inconsistent outcomes; repeated failed strategy",
+          "Controlled outcomes and next-step requirement",
+          "Must",
+          "Learn from previous attempts"
+        ],
+        [
+          "Assessments and social needs",
+          "Patient/caregiver; prior HRA",
+          "Medical/behavioral/social barriers, goals, support",
+          "At enrollment and when change occurs; age label always",
+          "Self-report stale or missing; nonresponse",
+          "Unknown distinct from none; refresh with member",
+          "Must",
+          "Build feasible patient goals"
+        ],
+        [
+          "Tasks and referrals",
+          "Workbench; service confirmation",
+          "Owner, due date, status, receipt evidence",
+          "Immediate internally; external as supplied",
+          "Sent mistaken for completed; unowned task",
+          "Separate requested, accepted, received and verified states",
+          "Must",
+          "Close the loop"
+        ],
+        [
+          "Care plans and notes",
+          "Workbench; clinician review",
+          "Agreed goals, interventions, interaction note",
+          "Each interaction",
+          "Copy-forward errors and unreviewed AI text",
+          "Source-linked reusable facts; review and sign; amendments",
+          "Must",
+          "Document once and follow progress"
+        ],
+        [
+          "Consent and permissions",
+          "Plan records plus confirmation",
+          "Program participation, caregiver scope/expiry, channel permission",
+          "Before disclosure or action; update immediately",
+          "Expired or ambiguous authority",
+          "Block prohibited disclosure; allow neutral task logging",
+          "Must",
+          "Contact and share appropriately"
+        ],
+        [
+          "Service directory and benefits",
+          "Plan network and community partners",
+          "Services, eligibility, geography, contact, last check",
+          "Pilot weekly review; confirm before referral",
+          "Closed programs or full waitlists",
+          "Display verification date and availability unknown",
+          "Must, curated",
+          "Find suitable support"
+        ],
+        [
+          "Risk and care gaps",
+          "Plan analytics and quality team",
+          "Signal, version, input window, explanation",
+          "Daily or per model run",
+          "Cost proxy bias and incomplete inputs",
+          "Display evidence; clinician override; subgroup review",
+          "Must, existing signals only",
+          "Support case finding without new model"
+        ],
+        [
+          "Staff and audit events",
+          "Identity service and workbench",
+          "Role, assignment, change history, timestamps",
+          "Immediate",
+          "Access mismatch; incomplete history",
+          "Role checks, append-only audit; supervisor escalation route",
+          "Must, basic",
+          "Safe assignment and accountability"
+        ],
+        [
+          "Authorizations",
+          "Insurer UM system",
+          "Request, status, reason, pending information",
+          "Daily when integration added",
+          "Unclear status or missing attachments",
+          "Read-only link/manual status initially; no auto-decisions",
+          "Later integration",
+          "Track coverage barriers"
+        ],
+        [
+          "Devices and home monitoring",
+          "Member devices/provider",
+          "Weight/glucose measurements with units",
+          "Per device agreement",
+          "Missing readings and false alarms",
+          "Clinical governance required; no assumed monitoring service",
+          "Later",
+          "Trend monitoring after pilot"
+        ]
+      ]
+    },
+    {
+      "name": "Sources and guide",
+      "headers": [
+        "ID",
+        "Title",
+        "URL or origin",
+        "Use and limitation"
+      ],
+      "rows": [
+        [
+          "S1",
+          "HiLabs brief",
+          "User-supplied PDF, sections A-E",
+          "Assignment requirements; case-manager persona and workload are scenario inputs."
+        ],
+        [
+          "S2",
+          "Health-plan care-manager information barriers",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6557451/",
+          "80 respondents at one Pennsylvania health plan; published 2017, survey 2012-13. Duplicate entry 68%, multiple logins 49%, timely access 37% rated major barriers. Historical, not national."
+        ],
+        [
+          "S3",
+          "NCQA case-management framework",
+          "https://www.ncqa.org/programs/health-plans/case-management-cm/",
+          "Assessment, planning, coordination, evaluation and advocacy across medical, behavioral and social needs."
+        ],
+        [
+          "S4",
+          "SummaCare operating policy",
+          "https://www.summacare.com/-/media/project/summacare/website/document-library/medicare-members/medical-benefits/policies/2024---final/complex-care-management-program-documentation-and-outreach.pdf?hash=5010D81309245169D3BCBAEBBE093F7D&sc_lang=en",
+          "One plan example of case finding, record review, outreach and documentation; not a universal requirement."
+        ],
+        [
+          "S5",
+          "Medication reconciliation",
+          "https://digital.ahrq.gov/medication-reconciliation",
+          "Information transfer, reconciliation provenance and accountability problems."
+        ],
+        [
+          "S6",
+          "Patient perspectives",
+          "https://pubmed.ncbi.nlm.nih.gov/35477772/",
+          "2022 qualitative study, 40 patients at 12 primary-care practices. Financial/transport barriers and relationship factors; adjacent setting."
+        ],
+        [
+          "S7",
+          "Referral tracking research",
+          "https://link.springer.com/article/10.1007/s11606-026-10735-6",
+          "2026 formative community-health-center study; fragmented referral documentation. Adjacent setting."
+        ],
+        [
+          "S8",
+          "CMS navigation evaluation",
+          "https://www.cms.gov/priorities/innovation/data-and-reports/2026/ahc-final-report",
+          "Community service capacity can constrain navigation. Evaluation does not establish this app's impact."
+        ],
+        [
+          "S9",
+          "CMS transitional care services",
+          "https://www.cms.gov/medicare/payment/fee-schedules/physician-fee-schedule/care-management/transitional-care-management-services",
+          "Provider TCM billing has specific contact/visit windows. Do not apply these as universal payer case-management rules."
+        ],
+        [
+          "S10",
+          "Risk algorithm bias",
+          "https://pubmed.ncbi.nlm.nih.gov/31649194/",
+          "2019 study: cost used as a proxy for need can create racial bias."
+        ],
+        [
+          "S11",
+          "Alert fatigue",
+          "https://psnet.ahrq.gov/primer/alert-fatigue",
+          "Primarily clinical decision-support evidence; apply cautiously to payer notifications."
+        ],
+        [
+          "S12",
+          "Authorization delays",
+          "https://www.oig.hhs.gov/reports/all/2022/some-medicare-advantage-organization-denials-of-prior-authorization-requests-raise-concerns-about-beneficiary-access-to-medically-necessary-care/",
+          "2022 Medicare Advantage review; inappropriate denials can delay access."
+        ],
+        [
+          "GUIDE",
+          "All records are fictional",
+          "As of 2026-11-09T08:00:00-05:00",
+          "No real PHI. Stable IDs across datasets. Duplicate ADT tests event deduplication, not identity matching. Dates are local US Eastern unless offsets shown. No live feeds or medical recommendations."
+        ],
+        [
+          "GUIDE2",
+          "Coverage",
+          "13 patient-linked datasets",
+          "Each patient has a record or explicit unavailable state in all 13. Missing ADT/appointment evidence remains unknown, not negative."
+        ]
+      ]
+    }
+  ]
+}
