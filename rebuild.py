@@ -3,12 +3,12 @@ from pathlib import Path
 import base64,json,re
 
 root=Path(__file__).resolve().parent
-css=(root/'source/style.css').read_text(encoding='utf8')
-js=(root/'source/app.js').read_text(encoding='utf8')
+css=(root/'source/style.css').read_text(encoding='utf8')+'\n'+(root/'source/upgrade.css').read_text(encoding='utf8')
+js=(root/'source/app.js').read_text(encoding='utf8')+'\n;\n'+(root/'source/upgrade-core.js').read_text(encoding='utf8')+'\n;\n'+(root/'source/upgrade-ui.js').read_text(encoding='utf8')
 data=json.loads((root/'data/synthetic-data.json').read_text(encoding='utf8'))
 readme=(root/'README.md').read_text(encoding='utf8')
 files={}
-for key,name in [('annex','documents/CareFlow_Synthetic_Patients.xlsx'),('pdf','documents/CareFlow_Presentation.pdf'),('pptx','documents/CareFlow_Editable_Slides.pptx'),('spec','documents/Workbench_Specification.md'),('design','documents/Design_References.md'),('sourceJS','source/app.js'),('sourceCSS','source/style.css'),('sourceBuild','rebuild.py'),('qa','QA.md'),('designNotes','DESIGN_NOTES.md')]:
+for key,name in [('annex','documents/CareFlow_Synthetic_Patients.xlsx'),('pdf','documents/CareFlow_Presentation.pdf'),('pptx','documents/CareFlow_Editable_Slides.pptx'),('spec','documents/Workbench_Specification.md'),('design','documents/Design_References.md'),('sourceJS','source/app.js'),('sourceCSS','source/style.css'),('upgradeCore','source/upgrade-core.js'),('upgradeUI','source/upgrade-ui.js'),('upgradeCSS','source/upgrade.css'),('upgradeGuide','documents/CareFlow_Upgrade_Guide.md'),('upgradeTests','tests/core.cjs'),('upgradeFixture','tests/legacy-initial.js'),('sourceBuild','rebuild.py'),('qa','QA.md'),('designNotes','DESIGN_NOTES.md')]:
  p=root/name
  if p.exists():files[key]=base64.b64encode(p.read_bytes()).decode()
 def safe(v):return json.dumps(v,ensure_ascii=False).replace('<','\\u003c')

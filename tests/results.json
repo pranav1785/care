@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Legacy migration preserves five cases and original facts",
+    "pass": true
+  },
+  {
+    "name": "Migration is idempotent",
+    "pass": true
+  },
+  {
+    "name": "Legacy signed notes, contacts and drafts survive migration",
+    "pass": true
+  },
+  {
+    "name": "Unknown member import is rejected",
+    "pass": true
+  },
+  {
+    "name": "Newer schema is not silently downgraded",
+    "pass": true
+  },
+  {
+    "name": "Avery Q&A preserves both doses with real CL-1 citation",
+    "pass": true
+  },
+  {
+    "name": "Jordan observed fill is not proof of adherence",
+    "pass": true
+  },
+  {
+    "name": "Different Q&A questions give different supported answers",
+    "pass": true
+  },
+  {
+    "name": "Unsupported diagnosis/dose questions abstain",
+    "pass": true
+  },
+  {
+    "name": "Casey service start remains unknown",
+    "pass": true
+  },
+  {
+    "name": "Riley answer contains no Avery medication",
+    "pass": true
+  },
+  {
+    "name": "No successful Avery baseline is fabricated",
+    "pass": true
+  },
+  {
+    "name": "Failed Jordan attempts do not count as meaningful baseline",
+    "pass": true
+  },
+  {
+    "name": "Morgan seed baseline retains day precision",
+    "pass": true
+  },
+  {
+    "name": "Late-arriving earlier event is labeled late",
+    "pass": true
+  },
+  {
+    "name": "Injected update is idempotent",
+    "pass": true
+  },
+  {
+    "name": "Clock cannot go backward",
+    "pass": true
+  },
+  {
+    "name": "Jordan at 08:00 is deferred",
+    "pass": true
+  },
+  {
+    "name": "Program consent alone does not authorize AI call",
+    "pass": true
+  },
+  {
+    "name": "Riley disconnected route blocks all successful direct simulations",
+    "pass": true
+  },
+  {
+    "name": "Casey caregiver scope must be reviewed",
+    "pass": true
+  },
+  {
+    "name": "Call branch routine generates real transcript state",
+    "pass": true
+  },
+  {
+    "name": "Call branch barrier generates real transcript state",
+    "pass": true
+  },
+  {
+    "name": "Call branch unreachable generates real transcript state",
+    "pass": true
+  },
+  {
+    "name": "Call branch person generates real transcript state",
+    "pass": true
+  },
+  {
+    "name": "Call branch clinical generates real transcript state",
+    "pass": true
+  },
+  {
+    "name": "No answer creates no clinical assessment or reported finding",
+    "pass": true
+  },
+  {
+    "name": "Person request escalates differently from clinical concern",
+    "pass": true
+  },
+  {
+    "name": "Spanish script is meaningful and explicitly synthetic",
+    "pass": true
+  },
+  {
+    "name": "Pause prevents consuming response",
+    "pass": true
+  },
+  {
+    "name": "Interrupted first turn does not invent patient findings",
+    "pass": true
+  },
+  {
+    "name": "Approving without review fails",
+    "pass": true
+  },
+  {
+    "name": "RN approval appends draft, creates one task and is idempotent",
+    "pass": true
+  },
+  {
+    "name": "Task completion requires evidence source and date",
+    "pass": true
+  },
+  {
+    "name": "Referral acceptance is not service completion",
+    "pass": true
+  },
+  {
+    "name": "Cross-member dependency is rejected",
+    "pass": true
+  },
+  {
+    "name": "Waiting response remains owned and has history",
+    "pass": true
+  },
+  {
+    "name": "Feedback helped changes linked state and retains provenance",
+    "pass": true
+  },
+  {
+    "name": "Feedback partly changes linked state and retains provenance",
+    "pass": true
+  },
+  {
+    "name": "Feedback help changes linked state and retains provenance",
+    "pass": true
+  },
+  {
+    "name": "Feedback not-received changes linked state and retains provenance",
+    "pass": true
+  },
+  {
+    "name": "Feedback person changes linked state and retains provenance",
+    "pass": true
+  },
+  {
+    "name": "Failed feedback renews attention without duplicate follow-up spam",
+    "pass": true
+  },
+  {
+    "name": "No feedback is unknown, not success",
+    "pass": true
+  },
+  {
+    "name": "Caregiver feedback forbidden outside recorded authority",
+    "pass": true
+  },
+  {
+    "name": "Casey caregiver feedback retains caregiver provenance",
+    "pass": true
+  },
+  {
+    "name": "Open actions block falsely achieved goal",
+    "pass": true
+  },
+  {
+    "name": "JSON reload retains new entity state",
+    "pass": true
+  },
+  {
+    "name": "Same-clock feedback after meaningful contact remains a new change",
+    "pass": true
+  },
+  {
+    "name": "Current action answers cite newly created local actions",
+    "pass": true
+  },
+  {
+    "name": "Circular dependencies are rejected",
+    "pass": true
+  }
+]
