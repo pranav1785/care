@@ -1,0 +1,697 @@
+{
+  "desktop": [
+    {
+      "step": 1,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 2,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 3,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 4,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 5,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 6,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 7,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 8,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 9,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 10,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 11,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 12,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 13,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 14,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 15,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 16,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 17,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 18,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 19,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 20,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 21,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 22,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 23,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 24,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 25,
+      "overlap": false,
+      "visible": true
+    }
+  ],
+  "mobile": [
+    {
+      "step": 1,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 2,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 3,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 4,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 5,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 6,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 7,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 8,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 9,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 10,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 11,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 12,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 13,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 14,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 15,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 16,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 17,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 18,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 19,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 20,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 21,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 22,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 23,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 24,
+      "overlap": false,
+      "visible": true
+    },
+    {
+      "step": 25,
+      "overlap": false,
+      "visible": true
+    }
+  ],
+  "patients": [
+    {
+      "member": "SYN-001",
+      "complete": true,
+      "checks": [
+        {
+          "step": 1,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 2,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 3,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 4,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 5,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 6,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 7,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 8,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 9,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 10,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 11,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 12,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 13,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 14,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 15,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 16,
+          "overlap": false,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "member": "SYN-002",
+      "complete": true,
+      "checks": [
+        {
+          "step": 1,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 2,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 3,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 4,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 5,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 6,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 7,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 8,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 9,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 10,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 11,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 12,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 13,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 14,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 15,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 16,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 17,
+          "overlap": false,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "member": "SYN-003",
+      "complete": true,
+      "checks": [
+        {
+          "step": 1,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 2,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 3,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 4,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 5,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 6,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 7,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 8,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 9,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 10,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 11,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 12,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 13,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 14,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 15,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 16,
+          "overlap": false,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "member": "SYN-004",
+      "complete": true,
+      "checks": [
+        {
+          "step": 1,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 2,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 3,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 4,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 5,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 6,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 7,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 8,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 9,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 10,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 11,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 12,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 13,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 14,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 15,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 16,
+          "overlap": false,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "member": "SYN-005",
+      "complete": true,
+      "checks": [
+        {
+          "step": 1,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 2,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 3,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 4,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 5,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 6,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 7,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 8,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 9,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 10,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 11,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 12,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 13,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 14,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 15,
+          "overlap": false,
+          "visible": true
+        },
+        {
+          "step": 16,
+          "overlap": false,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "reloadStartsCommandCenter": true,
+  "showcaseBannerRemoved": true,
+  "onlyTopBarLaunch": true,
+  "dismissalWorks": true
+}

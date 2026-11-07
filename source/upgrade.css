@@ -17,3 +17,13 @@
 @media print{#cf-intro,.cf-guide-pop,.cf-guide-ring{display:none!important}}
 
 .cf-guiding .toast{top:65px;bottom:auto;pointer-events:none}
+
+/* Reserve space when a floating guide cannot sit outside the content it explains. */
+html.cf-guide-docked .app{height:calc(100dvh - var(--cf-guide-reserve));min-height:0}
+html.cf-guide-docked .overlay{padding-bottom:calc(var(--cf-guide-reserve) + 14px);padding-top:14px}
+html.cf-guide-docked .modal{max-height:calc(100dvh - var(--cf-guide-reserve) - 28px)}
+html.cf-guide-docked .drawer{bottom:var(--cf-guide-reserve)}
+html.cf-guide-docked .cf-feedback-shell{height:calc(100dvh - var(--cf-guide-reserve));min-height:0;overflow:auto}
+html.cf-guide-docked #cf-story .cf-guide-pop,html.cf-guide-docked #tour-root .cf-guide-pop{box-shadow:0 3px 18px #0001}
+html.cf-guide-docked .note-dock{max-height:130px}
+@media(max-width:680px){html.cf-guide-docked .identity{padding-top:10px}html.cf-guide-docked .identity .spread{gap:6px}html.cf-guide-docked .patient-nav{margin-top:10px}html.cf-guide-docked .note-dock{max-height:95px}}

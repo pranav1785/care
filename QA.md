@@ -28,3 +28,13 @@ The browser disallows file:// navigation, so direct double-click execution was n
 - Phone-size (390 × 844) closed-loop journey completed using Next. The travelling prompt and highlighted permission checkbox did not overlap in the inspected modal. Temporary viewport override was reset.
 - Both completion paths restored the original workspace. No browser console errors were recorded during final checks. Existing source data and core clinical rules were unchanged.
 - Source syntax, archive integrity and extracted rebuild checked. This remains the synthetic browser-local application described above.
+
+
+## Command Center entry and content visibility update
+
+- Fresh app entry, a previously saved User Journeys view, and an older #home/journeys entry URL open in Command Center. Explicit intervention feedback links retain their dedicated purpose. Patient records, tabs, drafts and saved work are retained.
+- Removed the green Morgan showcase banner and duplicate dashboard launch control. The single top-bar Play a journey control starts the closed-loop tutorial directly. Its invitation can be dismissed without navigating away from Command Center. The five patient tutorials remain available through deliberate sidebar navigation.
+- All 25 closed-loop steps completed at desktop size and again at 390 × 844. DOM geometry checks at every step confirmed the highlighted control was visible and did not overlap the tutorial prompt. All five patient journeys also completed with target visibility/non-overlap checks (81 steps).
+- If there is insufficient adjacent space, a reserved guide lane reduces the workspace/dialog viewport instead of covering its content. The relevant control scrolls into view. Review-dialog focus no longer scrolls its highlighted checkbox away; returning from patient feedback opens the outcomes with the notes dock closed.
+- Reload after leaving the app on User Journeys returned to Command Center. Banner count was zero, one top-bar launcher was present, and dismissing the introduction removed the highlight. No browser console errors were observed. Browser viewport was restored.
+- Source syntax, ZIP integrity, original synthetic data equality and extracted rebuild checked. Core rules and source patient facts were not changed.

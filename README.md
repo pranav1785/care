@@ -3,7 +3,7 @@
 Open index.html (or CareFlow_Workbench.html) directly in a modern browser. No installation, server, internet connection, API key or build step is required. The same file powers the ChatGPT Site.
 
 ## Start here
-Choose User journeys in the sidebar or Play a journey in the top bar. Select one of five patient journeys. Click the highlighted control or use the single Next button, which performs that same action and advances. The prompt follows the target and scrolls it into view. Dismiss the opening invitation to explore independently. Each journey runs in a temporary sandbox and restores your previous workspace when you finish or exit.
+CareFlow opens in Command Center. The highlighted Play a journey button in the top bar starts the closed-loop tutorial directly; dismiss its invitation to explore independently. The five patient journeys remain available through User journeys in the sidebar. Click the highlighted control or the single Next button, which performs the same validated action and advances. Prompts move beside the content or use reserved space so the content stays visible. Every journey restores your previous workspace on completion or exit.
 
 ## Main workflows
 - Overview: five-member queue, actual counts, source event chart and contact-time reminders.
@@ -55,7 +55,7 @@ This release extends the original vanilla JavaScript workbench. It retains the f
 
 ## Best demonstration
 
-1. Open **Command Center**, then **Play the closed-loop story**.
+1. Open **Command Center**, then click **Play a journey** in the top bar. The tutorial starts directly; no showcase banner or journey-selection screen opens first.
 2. Open Morgan and ask CareLens about unresolved commitments; inspect the evidence.
 3. Read **Since last interaction** and the earlier-event update.
 4. Prepare AI outreach, explicitly review the fictional permissions and play the practical-barrier branch.

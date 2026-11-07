@@ -14,7 +14,7 @@ This release extends the original vanilla JavaScript workbench. It retains the f
 
 ## Best demonstration
 
-1. Open **Command Center**, then **Play the closed-loop story**.
+1. Open **Command Center**, then click **Play a journey** in the top bar. The tutorial starts directly; no showcase banner or journey-selection screen opens first.
 2. Open Morgan and ask CareLens about unresolved commitments; inspect the evidence.
 3. Read **Since last interaction** and the earlier-event update.
 4. Prepare AI outreach, explicitly review the fictional permissions and play the practical-barrier branch.
