@@ -3,7 +3,7 @@
 Open index.html (or CareFlow_Workbench.html) directly in a modern browser. No installation, server, internet connection, API key or build step is required. The same file powers the ChatGPT Site.
 
 ## Start here
-Choose User journeys in the sidebar or Play a journey in the top bar. Select one of five patient journeys. Follow the highlighted control or click Do this step. Prompts explain the decision. Each journey runs in a temporary sandbox and restores your previous workspace when you finish or exit.
+Choose User journeys in the sidebar or Play a journey in the top bar. Select one of five patient journeys. Click the highlighted control or use the single Next button, which performs that same action and advances. The prompt follows the target and scrolls it into view. Dismiss the opening invitation to explore independently. Each journey runs in a temporary sandbox and restores your previous workspace when you finish or exit.
 
 ## Main workflows
 - Overview: five-member queue, actual counts, source event chart and contact-time reminders.
@@ -65,7 +65,7 @@ This release extends the original vanilla JavaScript workbench. It retains the f
 8. Return to the nurse workspace: the intervention, goal, timeline, attention reason and follow-up reflect the report.
 9. Finish to restore your original workspace. This journey is temporary and is never saved over existing work.
 
-The five original guided journeys are also available. They preserve their original manual workflows.
+The five original guided journeys are also available. Every journey uses one Next button, or you can activate each highlighted control directly. Next performs the same real, validated demo action and advances. The travelling prompt scrolls each control into view. The opening tutorial invitation can be dismissed for independent exploration; dismissal is remembered in the current browser tab. Each walkthrough still restores your prior workspace.
 
 ## Using the upgraded workspace
 

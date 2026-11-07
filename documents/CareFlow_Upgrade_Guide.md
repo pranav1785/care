@@ -24,7 +24,7 @@ This release extends the original vanilla JavaScript workbench. It retains the f
 8. Return to the nurse workspace: the intervention, goal, timeline, attention reason and follow-up reflect the report.
 9. Finish to restore your original workspace. This journey is temporary and is never saved over existing work.
 
-The five original guided journeys are also available. They preserve their original manual workflows.
+The five original guided journeys are also available. Every journey uses one Next button, or you can activate each highlighted control directly. Next performs the same real, validated demo action and advances. The travelling prompt scrolls each control into view. The opening tutorial invitation can be dismissed for independent exploration; dismissal is remembered in the current browser tab. Each walkthrough still restores your prior workspace.
 
 ## Using the upgraded workspace
 

@@ -18,3 +18,13 @@ Original source, annex data and workflows were audited before changes. Baseline 
 
 ## Verification limits
 The browser disallows file:// navigation, so direct double-click execution was not browser-tested. The same standalone file was served locally; the extracted source package was rebuilt and checked. This is a synthetic browser-local prototype: deterministic Q&A, simulated calls/coordination, same-browser feedback, no backend/real authentication/PHI/clinical integration. No clinical validation, real emergency monitoring, immutable compliance audit or cross-device portal is claimed. Optional speech and campaign-scale lab are deferred. Earlier presentation documents are retained historical submission artifacts.
+
+
+## Tutorial interaction update — November 7, 2026
+
+- Opening invitation and Play a journey highlight displayed on entry. Dismiss removed both; reload in the same tab retained dismissal. The invitation preference is separate from patient data and backups.
+- All five original patient journeys completed through a single Next button after the update. No Show this step / Return / Skip button is present in the active prompt.
+- Closed-loop walkthrough completed through all 25 atomic actions using only Next, and again by clicking the actual highlighted controls. Buttons, checkboxes, patient feedback submission and read/acknowledge summaries all advance automatically after their validated action.
+- Phone-size (390 × 844) closed-loop journey completed using Next. The travelling prompt and highlighted permission checkbox did not overlap in the inspected modal. Temporary viewport override was reset.
+- Both completion paths restored the original workspace. No browser console errors were recorded during final checks. Existing source data and core clinical rules were unchanged.
+- Source syntax, archive integrity and extracted rebuild checked. This remains the synthetic browser-local application described above.
